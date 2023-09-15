@@ -1,5 +1,5 @@
 import { type VariantProps, cva } from "class-variance-authority";
-import { cn } from "../../utils/cn";
+import { cn } from "../../utils";
 import React from "react";
 
 const containerVariants = cva("px-4 py-5 gap-y-3 sm:p-6", {
@@ -22,18 +22,20 @@ const containerVariants = cva("px-4 py-5 gap-y-3 sm:p-6", {
   },
 });
 
-// export interface ContainerProps
-//   extends React.HTMLAttributes<HTMLDivElement>,
-//     VariantProps<typeof containerVariants> {
-//   children?: React.ReactNode;
-// }
-
-export interface ContainerProps {
+export interface ContainerProps
+  // React.HTMLAttributes<HTMLDivElement>,
+  extends VariantProps<typeof containerVariants> {
   children?: React.ReactNode;
   className?: string;
-  layout?: "flex" | "grid" | "row" | "column";
-  columnSpan?: "1" | "2" | "3";
 }
+
+// export interface ContainerProps {
+//   children?: React.ReactNode;
+//   className?: string;
+//   layout?: "flex" | "grid" | "row" | "column";
+//   columnSpan?: "1" | "2" | "3";
+//   backgroundColor?: TailwindCssClasses
+// }
 
 export const initialProps: ContainerProps = {
   layout: "flex",
@@ -48,7 +50,7 @@ const Container = ({
 }: ContainerProps) => {
   return (
     <div
-      className={cn(containerVariants({ layout, className, columnSpan }))}
+      className={cn(containerVariants({ layout, columnSpan, className }))}
       {...props}
     >
       {children}
