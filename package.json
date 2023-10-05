@@ -11,7 +11,8 @@
     "build:local": "pages build",
     "studio": "npm run features && npm run localData && studio",
     "features": "pages generate features",
-    "localData": "yext pages generate-test-data"
+    "localData": "yext pages generate-test-data",
+    "generate": "yext pages generate"
   },
   "engines": {
     "node": "18"

@@ -1,4 +1,4 @@
-name: npm run build:local
+name: npm run generate
 
 on: [pull_request]
 
@@ -12,7 +12,7 @@ jobs:
         with:
           node-version: "18"
       - run: npm install
-      - run: npm run build:local
+      - run: npm run generate
 
       - name: Tests ✅
         if: ${{ success() }}
