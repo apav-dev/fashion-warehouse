@@ -26,7 +26,6 @@ export const config: TemplateConfig = {
       "c_productDescription",
       "price.value",
       "slug",
-      "this-isn't-a-field",
     ],
     filter: { entityTypes: ["product"] },
   },
@@ -53,7 +52,7 @@ export default function Product({ document }: TemplateProps) {
         <ImageGallery images={document.photoGallery} />
         <ProductOverview
           productNameProps={{
-            text: `${documen.name}`,
+            text: `${x.name}`,
             rank: "1",
             size: "XXL",
             align: "Left",
