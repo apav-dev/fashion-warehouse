@@ -53,7 +53,7 @@ export default function Product({ document }: TemplateProps) {
         <ImageGallery images={document.photoGallery} />
         <ProductOverview
           productNameProps={{
-            text: `${document.name}`,
+            text: `${documen.name}`,
             rank: "1",
             size: "XXL",
             align: "Left",
