@@ -26,6 +26,7 @@ export const config: TemplateConfig = {
       "c_productDescription",
       "price.value",
       "slug",
+      "this-isn't-a-field",
     ],
     filter: { entityTypes: ["product"] },
   },
