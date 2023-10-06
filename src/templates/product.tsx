@@ -17,7 +17,6 @@ export const config: TemplateConfig = {
     filter: { entityTypes: ["product"] },
   },
 };
-
 export const getPath: GetPath<TemplateProps> = ({
   document,
 }: TemplateProps) => {
