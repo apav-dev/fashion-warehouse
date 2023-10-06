@@ -1,4 +1,5 @@
 import styles from "../../../styles/Button.module.css";
+// import { initialProps } from "../Button";
 
 interface ButtonProps {
   type?: "primary" | "secondary";
@@ -7,12 +8,14 @@ interface ButtonProps {
   className?: string;
 }
 
-const Button = ({
-  type = "primary",
-  size = "base",
-  text = "Button",
-  className = "",
-}: ButtonProps) => {
+export const initialProps: ButtonProps = {
+  type: "primary",
+  size: "base",
+  text: "Button",
+  className: "",
+};
+
+const Button = ({ type, size, text, className = "" }: ButtonProps) => {
   const combinedStyles = [
     styles.button,
     styles[type],
