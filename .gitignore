@@ -3,9 +3,7 @@ sites-rendered-output/
 dist/
 .yext
 .artifact-output
-sites-config/features.json
 *.local
-localData/
 .env
 .yextrc
 

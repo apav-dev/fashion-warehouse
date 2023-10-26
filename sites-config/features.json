@@ -1,0 +1,66 @@
+{
+  "features": [
+    {
+      "name": "product",
+      "streamId": "product",
+      "templateType": "JS",
+      "entityPageSet": {}
+    },
+    {
+      "name": "location",
+      "streamId": "location",
+      "templateType": "JS",
+      "entityPageSet": {}
+    }
+  ],
+  "streams": [
+    {
+      "$id": "product",
+      "localization": {
+        "locales": [
+          "en"
+        ],
+        "primary": false
+      },
+      "fields": [
+        "name",
+        "c_productDescription",
+        "price",
+        "slug",
+        "photoGallery"
+      ],
+      "filter": {
+        "entityTypes": [
+          "product"
+        ]
+      },
+      "source": "knowledgeGraph",
+      "destination": "pages"
+    },
+    {
+      "$id": "location",
+      "localization": {
+        "locales": [
+          "en"
+        ],
+        "primary": false
+      },
+      "fields": [
+        "name",
+        "address",
+        "photoGallery",
+        "mainPhone",
+        "hours",
+        "services",
+        "slug"
+      ],
+      "filter": {
+        "entityTypes": [
+          "location"
+        ]
+      },
+      "source": "knowledgeGraph",
+      "destination": "pages"
+    }
+  ]
+}

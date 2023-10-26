@@ -1,0 +1,60 @@
+{
+	"__": {
+		"entityPageSet": {},
+		"name": "product",
+		"streamId": "product",
+		"templateType": "JS"
+	},
+	"businessId": 3249863,
+	"c_productDescription": "Elevate your game with these cutting-edge basketball shoes, designed specifically for dynamic players on the court. Crafted with precision from top-tier materials, these shoes offer unparalleled grip, responsiveness, and support. The ergonomic design ensures a snug fit, reducing the risk of injuries while enhancing agility and speed. Ventilation zones and a cushioned insole work together to provide optimal comfort, even during the most intense matches. Make a statement on the court, both in performance and style, with these game-changing basketball shoes.",
+	"id": "air-elite-ascend-7000",
+	"key": "0:product:knowledgeGraph:49687591:en",
+	"locale": "en",
+	"meta": {
+		"entityType": {
+			"id": "product",
+			"uid": 30000
+		},
+		"locale": "en"
+	},
+	"name": "Air Elite Ascend 7000",
+	"photoGallery": [
+		{
+			"image": {
+				"height": 2961,
+				"url": "http://a.mktgcdn.com/p-sandbox/8I4rPMbrt5CDleIprss9msi9JUD46jcDHT5lb3kSThU/1974x2961.jpg",
+				"width": 1974
+			}
+		},
+		{
+			"image": {
+				"height": 4631,
+				"url": "http://a.mktgcdn.com/p-sandbox/UuvMibqukl1jq5PMDe374LRTsOgRiTYUBStLdwD4A1Y/3087x4631.jpg",
+				"width": 3087
+			}
+		},
+		{
+			"image": {
+				"height": 1380,
+				"url": "http://a.mktgcdn.com/p-sandbox/y_wsm-XHCf83_YzaoOdh7kbJcYgx55z-JjbBYwZ1Zd0/2070x1380.jpg",
+				"width": 2070
+			}
+		},
+		{
+			"image": {
+				"height": 2961,
+				"url": "http://a.mktgcdn.com/p-sandbox/4MGdPgulCjUGzUQ9PnhvH6sHd03dckUW4k211znmi5k/1974x2961.jpg",
+				"width": 1974
+			}
+		}
+	],
+	"price": {
+		"currencyCode": "USD",
+		"value": "129"
+	},
+	"siteDomain": "",
+	"siteId": 0,
+	"siteInternalHostName": "",
+	"slug": "air-elite-ascend-7000",
+	"uid": 49687591
+}

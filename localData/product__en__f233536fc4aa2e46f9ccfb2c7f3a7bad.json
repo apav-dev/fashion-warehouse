@@ -1,0 +1,60 @@
+{
+	"__": {
+		"entityPageSet": {},
+		"name": "product",
+		"streamId": "product",
+		"templateType": "JS"
+	},
+	"businessId": 3249863,
+	"c_productDescription": "Step into the world of effortless style with our pristine white sneakers. Meticulously crafted from premium materials, they offer a harmonious blend of comfort and durability, ensuring every stride is a confident one. The luminous white shade provides a touch of modern elegance, making it a versatile addition to any ensemble. From casual brunches to spirited evening outings, these sneakers seamlessly bridge the gap between laid-back and luxe. Dive feet first into a world where classic design meets contemporary flair, and let our white sneakers elevate your every step.",
+	"id": "premium-crew-90",
+	"key": "0:product:knowledgeGraph:49687600:en",
+	"locale": "en",
+	"meta": {
+		"entityType": {
+			"id": "product",
+			"uid": 30000
+		},
+		"locale": "en"
+	},
+	"name": "Premium Crew 90",
+	"photoGallery": [
+		{
+			"image": {
+				"height": 750,
+				"url": "http://a.mktgcdn.com/p-sandbox/ZVe5IvOdNxQF7PkxP228UCnf2_KCA7GFy0yXn8v-bG8/500x750.jpg",
+				"width": 500
+			}
+		},
+		{
+			"image": {
+				"height": 750,
+				"url": "http://a.mktgcdn.com/p-sandbox/e4YwqhdFpSWqgzdOCcGt5OLuHeoDQIJiKo6T_JXTeX0/500x750.jpg",
+				"width": 500
+			}
+		},
+		{
+			"image": {
+				"height": 1500,
+				"url": "http://a.mktgcdn.com/p-sandbox/o4_Y1_daASl4VvC0J5BTwrfz2Ekska838tWXh_98eGg/1000x1500.jpg",
+				"width": 1000
+			}
+		},
+		{
+			"image": {
+				"height": 1500,
+				"url": "http://a.mktgcdn.com/p-sandbox/xLVeDcU2iKRiC4WzEKg8O2irOLaCOPec1ohvJorHBrY/1000x1500.jpg",
+				"width": 1000
+			}
+		}
+	],
+	"price": {
+		"currencyCode": "USD",
+		"value": "109"
+	},
+	"siteDomain": "",
+	"siteId": 0,
+	"siteInternalHostName": "",
+	"slug": "premium-crew-90",
+	"uid": 49687600
+}

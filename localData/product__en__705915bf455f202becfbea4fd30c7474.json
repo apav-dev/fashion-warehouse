@@ -1,0 +1,60 @@
+{
+	"__": {
+		"entityPageSet": {},
+		"name": "product",
+		"streamId": "product",
+		"templateType": "JS"
+	},
+	"businessId": 3249863,
+	"c_productDescription": "Discover the epitome of sporty elegance with our Activewear Essential Hoodie in a sophisticated shade of gray. Expertly woven from high-performance fabrics, this hoodie not only promises to keep you warm but also ensures maximum comfort during all your active pursuits. The neutral gray hue offers a versatile touch, making it an effortless match for any outfit, from gym gear to casual streetwear. With its sleek design and a focus on functionality, the Activewear Essential Hoodie is your go-to piece for both intense workouts and laid-back lounging. Elevate your athleisure game and wrap yourself in the perfect blend of style and performance with this must-have hoodie.",
+	"id": "active-essential-hoodie",
+	"key": "0:product:knowledgeGraph:49687595:en",
+	"locale": "en",
+	"meta": {
+		"entityType": {
+			"id": "product",
+			"uid": 30000
+		},
+		"locale": "en"
+	},
+	"name": "Activewear Essential Hoodie",
+	"photoGallery": [
+		{
+			"image": {
+				"height": 750,
+				"url": "http://a.mktgcdn.com/p-sandbox/XgkmAgFDDIdH1uHGjpAnxAvvXzlrqkeaSLkTUWR26fw/1125x750.jpg",
+				"width": 1125
+			}
+		},
+		{
+			"image": {
+				"height": 750,
+				"url": "http://a.mktgcdn.com/p-sandbox/6IXB1CD1YbZcskF8uZVx4InJy1K0MocaZyRQHKIXyq4/1125x750.jpg",
+				"width": 1125
+			}
+		},
+		{
+			"image": {
+				"height": 1500,
+				"url": "http://a.mktgcdn.com/p-sandbox/VS8lbgCtYK7tgx8vHA2xlS7TLz4P-Zw-LotBVGAGEoQ/1000x1500.jpg",
+				"width": 1000
+			}
+		},
+		{
+			"image": {
+				"height": 4631,
+				"url": "http://a.mktgcdn.com/p-sandbox/UN5KaE8JAmHUmThRV7envMWbP3r3_RbJpbOFwL5_uKg/3087x4631.jpg",
+				"width": 3087
+			}
+		}
+	],
+	"price": {
+		"currencyCode": "USD",
+		"value": "79"
+	},
+	"siteDomain": "",
+	"siteId": 0,
+	"siteInternalHostName": "",
+	"slug": "active-essential-hoodie",
+	"uid": 49687595
+}

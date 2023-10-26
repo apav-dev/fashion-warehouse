@@ -1,0 +1,60 @@
+{
+	"__": {
+		"entityPageSet": {},
+		"name": "product",
+		"streamId": "product",
+		"templateType": "JS"
+	},
+	"businessId": 3249863,
+	"c_productDescription": "Embrace the epitome of timeless style with our classic white T-shirt. Crafted from the softest cotton, it caresses your skin, offering unmatched comfort and breathability, making it a perfect choice for any day and any look. The pristine white hue exudes a fresh and contemporary vibe, effortlessly enhancing your style quotient. Its versatile design flawlessly transitions from a casual day look to a chic evening ensemble, promising to be a cherished staple in your wardrobe. Experience the perfect blend of comfort, simplicity, and elegance with this quintessential white T-shirt, where everyday fashion meets endless sophistication.",
+	"id": "the-signature-tee",
+	"key": "0:product:knowledgeGraph:49687590:en",
+	"locale": "en",
+	"meta": {
+		"entityType": {
+			"id": "product",
+			"uid": 30000
+		},
+		"locale": "en"
+	},
+	"name": "The Signature Tee",
+	"photoGallery": [
+		{
+			"image": {
+				"height": 1980,
+				"url": "http://a.mktgcdn.com/p-sandbox/m_Vrvh2CqWX8aki_iIqoZGQvLOJU6AAZ9iyaR11am5M/2970x1980.jpg",
+				"width": 2970
+			}
+		},
+		{
+			"image": {
+				"height": 3000,
+				"url": "http://a.mktgcdn.com/p-sandbox/zdILKuJoAQvwF1INPme6x6acVO3rGFUnASGZ37Fto-M/3000x3000.jpg",
+				"width": 3000
+			}
+		},
+		{
+			"image": {
+				"height": 1982,
+				"url": "http://a.mktgcdn.com/p-sandbox/o66-BpDHQVkZlxQD_zCdQCBfSGXsxdbL0n7esOmlWoA/2969x1982.jpg",
+				"width": 2969
+			}
+		},
+		{
+			"image": {
+				"height": 3168,
+				"url": "http://a.mktgcdn.com/p-sandbox/caWTsSq4rgN7tInNWFmlefPIaHCMwxdlfl3Eguh4rs4/2112x3168.jpg",
+				"width": 2112
+			}
+		}
+	],
+	"price": {
+		"currencyCode": "USD",
+		"value": "59"
+	},
+	"siteDomain": "",
+	"siteId": 0,
+	"siteInternalHostName": "",
+	"slug": "the-signature-tee",
+	"uid": 49687590
+}
